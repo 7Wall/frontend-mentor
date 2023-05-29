@@ -1,0 +1,82 @@
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    background-color: hsl(185, 75%, 39%);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    background-image: url(../images/bg-pattern-card.svg);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 375px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 12px;
+    flex-wrap: wrap;
+}
+
+.card-head-picture {
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+}
+
+.profile-picture {
+    margin-top: 4em;
+    border-radius: 100%;
+    border: 3px solid #fff;
+}
+
+.card-head-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 2em;
+}
+
+.card-bottom {
+    border-top: 1px solid #6a6f813f;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+}
+
+.name, .number {
+    font-weight: 700;
+}
+
+.age, .city, .counter-type {
+    font-weight: 400px;
+    color: hsl(0, 0%, 59%);
+}
+
+.counter-type {
+    font-size: 12px;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
