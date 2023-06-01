@@ -21,7 +21,7 @@ The project consists of a small page with a section of testimonials arranged in 
 ### Built with
 
 - HTML5
-- CSS custom properties
+- CSS
 - Flexbox
 - CSS Grid
 
