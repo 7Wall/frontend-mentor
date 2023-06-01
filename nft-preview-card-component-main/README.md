@@ -21,7 +21,7 @@ The project is a simple page, with a card showing a preview of a NFT for sale.
 ### Built with
 
 - HTML5
-- CSS custom properties
+- CSS
 - Flexbox
 - CSS Grid
 
