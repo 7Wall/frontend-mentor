@@ -20,7 +20,7 @@ The challenge is to build a profile card using html and css
 ### Built with
 
 - HTML5
-- CSS custom properties
+- CSS
 - Flexbox
 
 ### What I learned
